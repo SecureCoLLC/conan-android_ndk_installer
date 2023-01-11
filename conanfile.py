@@ -5,7 +5,7 @@ import os
 
 class AndroidNDKInstallerConan(ConanFile):
     name = "android_ndk_installer"
-    version = "r21d"
+    version = "r22b"
     description = "The Android NDK is a toolset that lets you implement parts of your app in " \
                   "native code, using languages such as C and C++"
     url = "https://github.com/bincrafters/conan-android_ndk_installer"
