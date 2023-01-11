@@ -40,9 +40,9 @@ class AndroidNDKInstallerConan(ConanFile):
         archive_name = "android-ndk-{0}-{1}.zip".format(self.version, variant)
         source_url = "https://dl.google.com/android/repository/" + archive_name
 
-        sha1 = {"windows-x86_64": "99175ce1210258f2280568cd340e0666c69955c7",
-                "darwin-x86_64": "ef06c9f9d7efd6f243eb3c05ac440562ae29ae12",
-                "linux-x86_64": "bcf4023eb8cb6976a4c7cff0a8a8f145f162bf4d"}.get(variant)
+        sha1 = {"windows-x86_64": "96ba1a049303cf6bf3ee84cfd64d6bcd43486a50",
+                "darwin-x86_64": "dc80e8a2cfcb28db74c1931d42c652e9d17ff2c3",
+                "linux-x86_64": "9ece64c7f19763dd67320d512794969930fce9dc"}.get(variant)
         tools.get(source_url, sha1=sha1)
 
     @property
